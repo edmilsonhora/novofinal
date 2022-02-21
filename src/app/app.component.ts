@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'novofinal';
+
+constructor(){}
+
+testar():void{
+  alert("Hello world Edmilson!");
+}
+
 }
